@@ -7,6 +7,8 @@ Individuals can check in and out in two ways:
 
 In this system, mobile phones replace traditional attendance devices, allowing any mobile phone with a camera and internet access to be used. Another feature of this system is the ability to track different individuals, which helps confirm their locations in various situations. Additionally, the program allows users to assign tasks to registered individuals.
 
+Atentra consists of two projects: a website and an Android app. Each of these projects has a README file that you can read for a better understanding of them.
+
 ## Project Status
 **Note:** This project is no longer actively maintained and was last updated in 2016. It may not reflect the latest best practices or technologies.
 
