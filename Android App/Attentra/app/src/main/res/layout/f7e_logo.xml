@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/logonmbgstart0001"
+        android:id="@+id/logoImageView"
+        android:layout_marginTop="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#537c76"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="تمام حقوق محفوظ است"/>
+</FrameLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_module_purch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backrepeat"
+    tools:context="ir.fardan7eghlim.attentra.views.module.ModulePurchActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/Amount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:background="@drawable/button_02"
+            android:id="@+id/time_amp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/Description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_02"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/description_et_amp"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/Price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_02"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/price_et_amp"
+            android:layout_weight="0.7" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_module_public"
+        android:text="@string/Purch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_02"
+        android:layout_centerHorizontal="true"
+        android:minWidth="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

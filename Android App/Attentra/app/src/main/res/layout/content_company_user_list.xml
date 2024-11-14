@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_user_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ir.fardan7eghlim.attentra.views.company.CompanyUserListActivity"
+    tools:showIn="@layout/activity_company_user_list"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_box_layout_ci"
+        android:layoutDirection="ltr"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="@string/msg_write_something"
+            android:paddingLeft="15dp"
+            android:textColorHint="#a5a09c"
+            android:background="@drawable/edittext_rounded_search_box"
+            android:ems="10"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/search_et_cul"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/search"
+            android:background="@drawable/button_search"
+            android:id="@+id/search_btn_cul"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_company_members_cul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

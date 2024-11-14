@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_03"
+    android:id="@+id/option_dialog_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="8dp">
+            <Button
+                android:text="btn_dialog_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_01"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+            <Button
+                android:text="btn_dialog_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_02"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+            <Button
+                android:text="btn_dialog_03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_03"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+            <Button
+                android:text="btn_dialog_04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_04"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+            <Button
+                android:text="btn_dialog_05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_05"
+                android:visibility="gone"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+            <Button
+                android:text="@string/Delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_dlt"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_link_message"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/messForDelete"
+                    tools:text="Do you reallu want to delete?"
+                    android:gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <Button
+                        android:text="@string/msg_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_dialog_yDlt"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:text="@string/msg_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_dialog_nDlt"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:text="@string/Edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_dialog_edt"
+                android:textColor="@color/cast_expanded_controller_text_color"
+                android:background="@drawable/button_01"
+                android:layout_marginBottom="2dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

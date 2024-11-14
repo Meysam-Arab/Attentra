@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:id="@+id/row_bg"
+    android:background="@drawable/button_02">
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:id="@+id/row_bg_avatar">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/company"
+            android:layout_gravity="center"
+            android:id="@+id/avatar_in_row"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.75"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/base_row_content">
+
+        <TextView
+            android:text="string01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:gravity="center_vertical"
+            android:id="@+id/text_first" />
+        <TextView
+            android:text="string01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:id="@+id/text_date_from" />
+        <TextView
+            android:text="string01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:id="@+id/text_date_to" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:id="@+id/row_progress_01">
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_01"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:scaleY="30"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/menu"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/show_option_detail_btn"
+        android:layout_weight="0.1" />
+</LinearLayout>
