@@ -128,7 +128,7 @@
 
 
 {{--<script async defer--}}
-        {{--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMBCC_pf0JtSxH0gvs4_84PXVCL7ufOfE&signed_in=true&callback=initMap">--}}
+        {{--src="https://maps.googleapis.com/maps/api/js?key={{APIKEY}}&signed_in=true&callback=initMap">--}}
 
 {{--</script>--}}
 
