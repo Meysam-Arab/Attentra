@@ -1,0 +1,359 @@
+<resources>
+    <string name="action_sign_in">ورود</string>
+    <string name="action_sign_in_short">ورود</string>
+
+    <string name="app_name">آتنترا</string>
+    <string name="title_activity_company_index">نهادها</string>
+    <string name="title_activity_track_store">ارسال سیگنال </string>
+    <string name="title_activity_aboutus">درباره ما</string>
+    <string name="title_activity_track_list">ردیابی</string>
+    <string name="title_activity_user_login">ورود</string>
+    <string name="title_activity_user_register">ثبت نام</string>
+    <string name="title_activity_user_home">صفحه اصلی</string>
+    <string name="title_activity_home">آتنترا</string>
+    <string name="title_activity_checkin">ثبت ورود / خروج</string>
+    <string name="title_activity_company_add_member">افزودن عضو جدید به نهاد</string>
+    <string name="title_activity_company_user_list">لیست اعضا</string>
+    <string name="title_activity_company_edit">ویرایش نهاد</string>
+    <string name="title_activity_mission_index">لیست ماموریت ها</string>
+    <string name="title_activity_mission_add">افزودن ماموریت جدید</string>
+    <string name="title_activity_mission_edit">ویرایش ماموریت</string>
+    <string name="title_activity_track_index">لیست ردیابی ها</string>
+    <string name="title_activity_company_add">افزودن نهاد جدید</string>
+    <string name="title_activity_mission_users">لیست افراد در این ماموریت</string>
+    <string name="title_activity_attendance">لیست ورود و خروج</string>
+    <string name="title_activity_attendance_store">افزودن ساعت ورود/خروج دستی</string>
+    <string name="title_activity_attendance_edit">ویرایش دستی</string>
+    <string name="title_activity_Modules">ماژول ها</string>
+    <string name="title_activity_payments">لیست پرداخت های شما</string>
+    <string name="title_activity_payment_add">افزایش موجودی</string>
+    <string name="title_activity_Module_purch">خرید ماژول جدید</string>
+    <string name="title_activity_user_change_password">تغییر رمز عبور</string>
+    <string name="title_activity_attendance_store_self_location">ثبت ورود و خروج مکان پایه</string>
+
+
+    <string name="lbl_followeup">کد رهگیری:</string>
+    <string name="lbl_main_site"> سایت برنامه </string>
+    <string name="lbl_support"> پشتیبانی </string>
+    <string name="lbl_all_right_reserved"> تمامی حقوق برای شرکت هوش مصنوعی فردان هفت اقلیم محفوظ می باشد </string>
+    <string name="lbl_version"> نسخه </string>
+    <string name="lbl_more_help"> برای آموزش و راهنمایی های بیشتر به سایت نرم افزار مراجعه کنید </string>
+
+
+
+    <string name="prompt_user_name">نام کاربری</string>
+
+
+    <string name="btn_Tutorial">آموزش</string>
+    <string name="btn_LogIn">ورود</string>
+    <string name="btn_LogOut">خروج</string>
+    <string name="btn_Register">ثبت نام</string>
+    <string name="btn_Exit">خروج</string>
+    <string name="btn_AboutUs">درباره ما</string>
+    <string name="btn_Profile">پروفایل</string>
+    <string name="btn_CheckIn">ثبت ورود/خروج</string>
+    <string name="btn_GPSTrackingStart">فعال کردن ردیاب</string>
+    <string name="btn_Companies">نهادها</string>
+    <string name="btn_Settings">تنظیمات</string>
+    <string name="btn_Payments">پرداخت ها</string>
+    <string name="btn_Modules">ماژول ها</string>
+    <string name="btn_AttendanceList">لیست حضور و غیاب</string>
+    <string name="btn_Share">اشتراک گذاری</string>
+    <string name="btn_Rate">امتیاز دادن</string>
+    <string name="btn_OtherProducts">برنامه های دیگر</string>
+    <string name="btn_OK">تایید</string>
+    <string name="btn_Stop">توقف</string>
+    <string name="btn_Start">شروع</string>
+    <string name="btn_Minimize">کوچک کردن</string>
+    <string name="btn_Download">دانلود</string>
+    <string name="btn_Purchase">خرید</string>
+    <string name="btn_LocationCheckIn">ثبت ورود/خروج مکان پایه</string>
+    <string name="btn_Reports">گزارشات</string>
+    <string name="btn_Zone">تنظیم محدوده</string>
+    <string name="btn_Attendance_Store_Self_Location">ثبت ورود/خروج</string>
+    <string name="btn_AllowSelfRoll">اجازه خود ثبتی</string>
+    <string name="btn_DisallowSelfRoll">ممنوعیت خود ثبتی</string>
+
+    <string name="chk_trackingNotificationSound">پخش اعلان ردیابی</string>
+    <string name="chk_checkInOutMerge">ورود/خروج همزمان ذخیره شود</string>
+
+
+
+    <string name="et_Email">پست الکترونیک</string>
+    <string name="et_language">زبان</string>
+    <string name="et_UserName">نام کاربری</string>
+    <string name="et_Password">رمز عبور</string>
+    <string name="et_RepPassword">تکرار رمز عبور</string>
+
+    <string name="dlg_Yes">بله</string>
+    <string name="dlg_No">خیر</string>
+    <string name="dlg_msg_Exit">آیا اطمینان دارید؟</string>
+    <string name="dlg_Wait">لطفا منتظر بمانید...</string>
+    <string name="dlg_OperationSuccess">عملیات موفقیت آمیز بود</string>
+    <string name="dlg_OperationFail"> عملیات ناموفق بود</string>
+
+    <string name="msg_OperationSuccess">عملیات با موفقیت انجام شد</string>
+    <string name="msg_OperationFail">عملیات با شکست مواجه شد</string>
+    <string name="msg_OperationError">عملیات با خطا مواجه شد</string>
+    <string name="msg_MessageNotSpecified">پیام نامشخص</string>
+    <string name="msg_MessageHeadToWebSite">در حال حاضر این ویژگی تنها از طریق سایت در دسترس می باشد.</string>
+    <string name="msg_ConnectionError">خطا در برقراری ارتباط با سرور</string>
+    <string name="msg_GoogleServicesError">لطفا google services را نصب کنید</string>
+    <string name="msg_CheckInOperationSuccess">ورود کاربر با موفقیت ثبت شد</string>
+    <string name="msg_CheckOutOperationSuccess">خروج کاربر با موفقیت ثبت شد</string>
+    <string name="msg_CheckInOutOperationSuccess">ورود و خروج همزمان کاربر با موفقیت ثبت شد</string>
+    <string name="msg_ImportantNotice">اطلاع رسانی مهم</string>
+
+
+    <string name="msg_OldVersion">نسخه ی جدیدی از این برنامه منتشر شده است - با مراجعه به www.attentra.ir نسخه ی جدید را دانلود کنید</string>
+    <string name="msg_InProgress">در حال ارسال مختصات ...</string>
+    <string name="msg_EyeClick">برای شروع ارسال اطلاعات مکانی چشم را لمس کنید</string>
+    <string name="msg_AppExited">شما از برنامه خارج شدید</string>
+    <string name="msg_PhoneCodeRegisterOk">تلفن با موفقیت ثبت شد</string>
+    <string name="msg_TrackNotification">برای ورود به برنامه اینجا را لمس کنید</string>
+    <string name="msg_VersionExpired">ورژن جدیدی از برنامه موجود می باشد</string>
+    <string name="msg_InNextVersions">قابل دسترس در نسخه های آینده</string>
+    <string name="msg_InWebSystem">قابل دسترس در سامانه تحت وب</string>
+    <string name="msg_InWebSystemForNow">فعلا قابل دسترس در سامانه تحت وب</string>
+
+    <!--////payment related////-->
+    <string name="msg_PaymentBazarOperationSuccessful">عملیات با موفقیت انجام شد</string>
+    <string name="msg_PaymentZarinPalBelowSilverLevel">سطح تاييد پذيرنده پايين تر از سطح نقره اي است</string>
+    <string name="msg_PaymentZarinPalDefectiveInformation">اطلاعات ارسال شده ناقص است</string>
+    <string name="msg_PaymentZarinPalCanNotEditRequest">امكان ويرايش درخواست ميسر نمي باشد</string>
+    <string name="msg_PaymentZarinPalFinancialOperationNotFind">هيچ نوع عمليات مالي براي اين تراكنش يافت نشد</string>
+    <string name="msg_PaymentZarinPalIdValidationTime">مدت زمان معتبر طول عمر شناسه پرداخت بايد بين 30 دقيه تا 45 روز مي باشد</string>
+    <string name="msg_PaymentZarinPalIncorrectAdditionalData">اطلاعات تکمیلی نامعتبر می باشد</string>
+    <string name="msg_PaymentZarinPalIncorrectIpOrMerchantCode">اطلاعات تایید هویت نامعتبر می باشد</string>
+    <string name="msg_PaymentZarinPalMethodAccessNotAllowed">خطای نوع دسترسی</string>
+    <string name="msg_PaymentZarinPalOperationSuccessful">عملیات با موفقیت انجام شد</string>
+    <string name="msg_PaymentZarinPalOperationSuccessfulPaymentVerificationAlredyDone">عملیات با موفقیت انجام شد و تایید پرداخت ارسال شده است</string>
+    <string name="msg_PaymentZarinPalRequestArchived">درخواست مورد نظر آرشيو شده است</string>
+    <string name="msg_PaymentZarinPalRequestNotFind">درخواست مورد نظر يافت نشد</string>
+    <string name="msg_PaymentZarinPalShaparakRestrictionPayment">با توجه به محدوديت هاي شاپرك امكان پرداخت با رقم درخواست شده ميسر نمي باشد</string>
+    <string name="msg_PaymentZarinPalTransactionCountExceeded">سقف تقسيم تراكنش از لحاظ تعداد يا رقم عبور نموده است</string>
+    <string name="msg_PaymentZarinPalTransactionFailed">تراكنش نا موفق ميباشد</string>
+    <string name="msg_PaymentZarinPalTransactionPaymentMismatch">رقم تراكنش با رقم پرداخت شده مطابقت ندارد</string>
+    <string name="msg_PressBackAgain">برای خروج لطفا بازگشت را دوباره لمس کنید</string>
+    <string name="msg_InternetNotAvailable">لطفا اتصال با اینترنت را بررسی کنید</string>
+    <string name="msg_TermsOfService">بدینوسیله موافقت خود را با توافقنامه کاربری اعلام میدارم</string>
+    <string name="msg_term_of_use">متن</string>
+    <string name="msg_compelete_information">لطفا اطلاعات خود را از طریق قسمت تنظیمات تکمیل کنید</string>
+    <string name="msg_company_not_exist">هیچ مکانی ثبت نشده است</string>
+    <string name="msg_PaymentUndefinedError">خطای نامشخص</string>
+    <string name="msg_location_not_in_zone">شما در محدوده مجاز تعیین شده قرار ندارید</string>
+    <string name="msg_ErrorUserNotAllowedToSelfRoll">کاربر اجازه ثبت حضور و غیاب خود را ندارد</string>
+    <string name="msg_ErrorCompanyZoneIsNotSet">محدوده ی مکان مشخص نشده</string>
+    <string name="msg_Experimental">آزمایشی...</string>
+    <string name="msg_LocationAccessDenied">اجازه دسترسی به اطلاعات مکانی داده نشد!!</string>
+    <string name="msg_CameraAccessDenied">اجازه دسترسی به دوربین داده نشد!!</string>
+
+    <!--/////////////////////////////////////-->
+
+    <string name="error_undefined">نامشخص</string>
+    <string name="error_user_exist">کاربر موجود می باشد</string>
+    <string name="error_item_exist">از قبل موجود می باشد</string>
+    <string name="error_register_fail">ثبت نام با شکست مواجه شد</string>
+    <string name="error_insert_fail">ثبت با شکست مواجه شد</string>
+    <string name="error_login_fail">نام کاربری یا رمز عبور اشتباه می باشد</string>
+    <string name="error_token_mismach">ناسازگاری اطلاعات</string>
+    <string name="error_defective_information">اطلاعات ناقص</string>
+    <string name="error_invalid_email">ایمیل نامعتبر</string>
+    <string name="error_token_blacklisted">توکن بلک لیست شده</string>
+    <string name="error_company_exist">نهاد موجود می باشد</string>
+    <string name="error_company_store">خطا در ثبت نهاد</string>
+    <string name="error_module_expire">ماژول باطل شده است</string>
+    <string name="error_invalid_file_size">حجم فایل غیر مجاز</string>
+    <string name="error_track_store">خطا در ثبت مختصات</string>
+    <string name="error_update_fail">به روز رسانی با شکست مواجه شد</string>
+    <string name="error_unauthorized_user">کاربر غیر مجاز</string>
+    <string name="error_delete_fail">حذف با شکست مواجه شد</string>
+    <string name="error_operation_fail">عملیات شکست خورد</string>
+    <string name="error_track_index">خطا در لیست ردیابی</string>
+    <string name="error_track_list">خطا در دریافت اطلاعات ردیابی</string>
+    <string name="error_mismatch_password">رمزهای عبور همخوانی ندارند</string>
+    <string name="error_item_not_exist">مورد مورد نظر موجود نمی باشد</string>
+    <string name="error_not_enough_charge">اعتبار نقدی شما کافی نمی باشد</string>
+    <string name="error_auth_fail">تصدیق هویت با شکست مواجه شد. لطفا دومرتبه وارد شوید</string>
+    <string name="error_field_required">این فلید لازم است</string>
+    <string name="error_incorrect_password">رمز عبور نادرست است</string>
+    <string name="error_invalid_password">رمز عبور کوتاه است</string>
+    <string name="error_no_change_found">تغییری انجام نشده</string>
+    <string name="error_wrong_phone_code">تلفن ثبت نشده است</string>
+    <string name="error_invalid_piblic_key">کلید نا معتبر</string>
+    <string name="error_term_of_use">لطفا توافقنامه کاربری را تایید فرمایید</string>
+    <string name="error_user_name_short">نام کاربری وارد شده کوتاه می باشد</string>
+    <string name="error_user_canceled">کاربر از ادامه ی انجام عملیات انصراف داد</string>
+
+
+    <string name="enter_company_name_here">نام نهاد:</string>
+    <string name="register_company">ثبت نهاد</string>
+    <string name="select_time_zone">منطقه زمانی:</string>
+    <string name="prompt_password">رمز عبور</string>
+    <string name="et_Country">کشور</string>
+    <string name="navigation_drawer_close"></string>
+
+    <string name="mdl_month">ماه</string>
+    <string name="mdl_company">نهاد</string>
+    <string name="mdl_point">نقطه</string>
+    <string name="mdl_employee">کارمند</string>
+    <string name="mdl_one">یک</string>
+    <string name="mdl_two">دو</string>
+    <string name="mdl_three">سه</string>
+    <string name="mdl_four">چهار</string>
+    <string name="mdl_five">پنج</string>
+    <string name="mdl_six">شش</string>
+    <string name="mdl_ten">ده</string>
+    <string name="mdl_thirty">سی</string>
+    <string name="mdl_5hundred">پانصد</string>
+    <string name="mdl_thousant">هزار</string>
+    <string name="mdl_year">سال</string>
+
+
+
+    <string name="tlt_Last_Operation_of_your_Employees">آخرین وضعیت اعضا:</string>
+    <string name="tlt_you_are_at_work_since">زمان حضور شما:</string>
+    <string name="tlt_you_are_not_in_company">شما اکنون در محل کار حضور نزده اید.</string>
+    <string name="Amount">مقدار:</string>
+    <string name="Duration">مدت:</string>
+    <string name="Code">کد عضو:</string>
+    <string name="Date">تاریخ</string>
+    <string name="Description">توضیحات</string>
+    <string name="Email">پست الکترونیک:</string>
+    <string name="End">پایان</string>
+    <string name="Family">نام خانوادگی:</string>
+    <string name="Gender">جنسیت:</string>
+    <string name="Modules_for_Special_Company">ماژول های مرتبط با نهاد:</string>
+    <string name="Modules_for_All_Companies">ماژول های عمومی قابل استفاده تمام نهادها:</string>
+    <string name="Name">نام:</string>
+    <string name="Password">رمز عبور:</string>
+    <string name="Preveu_Pass">رمز کنونی:</string>
+    <string name="Price">قیمت(تومان):</string>
+    <string name="Purch">خرید</string>
+    <string name="Start">شروع</string>
+    <string name="Time">ساعت</string>
+    <string name="Title">عنوان:</string>
+    <string name="Type">نوع:</string>
+    <string name="Typical_Modules">ماژول های عمومی</string>
+    <string name="Who_should_be_in_mission">اعضایی که بایستی در این ماموریت باشند</string>
+    <string name="btn_Add">اضافه کردن</string>
+    <string name="btn_Change_Password">تغییر پسورد</string>
+    <string name="btn_Update">به روز رسانی</string>
+    <string name="msg_write_something">چیزی بنویسید...</string>
+    <string name="pay_new">افزایش اعتبار</string>
+    <string name="userName">نام کاربری:</string>
+    <string name="Attendance">حضورها و غیاب ها</string>
+    <string name="CEO">مدیر</string>
+    <string name="Communicate">ارتباطات با سازندگان</string>
+    <string name="Details">جزئیات</string>
+    <string name="Employee">کارمند</string>
+    <string name="Employees_in_Mission">اعضا در ماموریت</string>
+    <string name="GPSseemsEnable">موقعیت یاب گوشی شما خاموش می باشد.آیا مایل به روشن کردن آن هستید؟</string>
+    <string name="List_Of_Users">لیست اعضا</string>
+    <string name="MiddleCEO">مدیر بخش</string>
+    <string name="Device">دستگاه</string>
+    <string name="Missions">ماموریت ها</string>
+    <string name="Select_Picture">انتخاب عکس</string>
+    <string name="Tracking">ردیابی</string>
+    <string name="btn_Email_me_new_Password">رمز عبور جدید را برایم ارسال کن</string>
+    <string name="dlg_DoYouReallyWantToDelete">آیا از حذف اطمینان دارید؟</string>
+    <string name="female">خانم</string>
+    <string name="male">آقا</string>
+    <string name="from">از</string>
+    <string name="msg_no">خیر</string>
+    <string name="msg_present">حاضر</string>
+    <string name="msg_yes">بلی</string>
+    <string name="used">استفاده شده:</string>
+    <string name="Delete">پاک کردن</string>
+    <string name="Edit">ویرایش</string>
+    <string name="msg_qr_code_get">لطفا بارکد شخص مورد نظر را جلوی دوربین قرار دهید</string>
+    <string name="status">وضعیت</string>
+    <string name="refreshing">در حال رفرش کردن اطلاعات...</string>
+    <string name="error_no_connection">اینترنت در دسترس نیست</string>
+    <string name="forgetPassword">فراموشی رمز عبور</string>
+    <string name="btn_CheckYourselfIn">ورود/خروج خودتان</string>
+    <string name="msg_more">بیشتر</string>
+    <string name="Delete_phoneCode">حذف وسیله ی ثبت شده</string>
+    <string name="Tooman">تومان</string>
+    <string name="chargRemidTitle">اعتبار نقدی شما:</string>
+    <string name="Admin">ادمین</string>
+    <string name="None">نامشخص</string>
+    <string name="notHere">هنوز حضور نزده است</string>
+    <string name="isHere">هنوز حضور دارند</string>
+    <string name="StartDate">زمان شروع</string>
+    <string name="DeadLine">مهلت:</string>
+    <string name="ShareSubject">آتنترا</string>
+    <string name="ShareBody">آتنترا - برنامه ردیابی و حضور و غیاب بدون نیاز به دستگاه و فقط با تلفن همراه شما - https://cafebazaar.ir/app/ir.fardan7eghlim.attentra/?l=fa</string>
+    <string name="ShareVia">اشتراک از طریق</string>
+
+    <string name="navigation_drawer_open">بازکردن رسام مسیریاب</string>
+
+
+    <string name="abt_website">سایت رسمی:</string>
+    <string name="abt_email">پست الکترونیکی:</string>
+    <string name="abt_tellphone">تلفن تماس:</string>
+
+
+    <string name="ttrl_ceo_01_h">منوی اصلی</string>
+    <string name="ttrl_ceo_01">برای دسترسی به قسمت های مختلف برنامه بایستی به این منو مراجعه کنید</string>
+    <string name="ttrl_ceo_02_h">ثبت ورود و خروج</string>
+    <string name="ttrl_ceo_02">در این قسمت شما میتوانید،با اسکن کارت های اعضا زمان ورود و خروج ایشان را ثبت کنید</string>
+    <string name="ttrl_ceo_03_h">صفحه ی اصلی</string>
+    <string name="ttrl_ceo_03">دسترسی به صفحه ی ابتدایی برنامه.شما مدیر محترم در این صفحه می توانید آخرین وضعیت اعضا را نیز مشاهده کنید.</string>
+    <string name="ttrl_ceo_04_h">لیست حضور غیاب شما</string>
+    <string name="ttrl_ceo_04">در این قسمت لیست ساعات حضور ثبت شده ی مربوط به خودتان را می توانید مشاهده کنید</string>
+    <string name="ttrl_ceo_05_h">نهادهای مربوط به شما</string>
+    <string name="ttrl_ceo_05">در این قسمت،لیستی از شرکت ها یا بخش هایی از شرکت های خود را می توانید مشاهده کنید.</string>
+    <string name="ttrl_ceo_06_h">ماژول های کمکی</string>
+    <string name="ttrl_ceo_06">در این قسمت لیستی از ماژول های کمکی برنامه وجود دارند که شما می توانید آن ها را خریداری کنید</string>
+    <string name="ttrl_ceo_07_h">لیست پرداخت ها</string>
+    <string name="ttrl_ceo_07">سیستم پرداخت ما به صورت شارژدهی است.شما در این قسمت لیست پرداخت های که انجام داده اید را مشاهده خواهید کرد.</string>
+
+    <string name="ttrl_emp_01_h">صفحه ی اصلی</string>
+    <string name="ttrl_emp_01">دسترسی به صفحه ی ابتدایی برنامه.شما عضو گرامی،در این صفحه وضعیت خود در سیستم و بارکد خود را مشاهده می کنید.</string>
+    <string name="ttrl_emp_02_h">ارسال داده های مکانی</string>
+    <string name="ttrl_emp_02">در این قسمت،شما توانایی ارسال موقعیت های جغرافی خود به سرور هستید.</string>
+    <string name="ttrl_emp_03_h">لیست حضور غیاب شما</string>
+    <string name="ttrl_emp_03">در این قسمت لیست ساعات حضور ثبت شده ی مربوط به خودتان را می توانید مشاهده کنید</string>
+    <string name="ttrl_emp_04_h">تنظیمات</string>
+    <string name="ttrl_emp_04">برای ویرایش اطلاعات خود از این قسمت استفاده کنید</string>
+    <string name="close_tutorial">بستن آموزش</string>
+
+    <string name="lbl_signal">سیگنال</string>
+    <string name="lbl_signal_none_or_unknown">نامشخص</string>
+    <string name="lbl_signal_great">عالی</string>
+    <string name="lbl_signal_good">خوب</string>
+    <string name="lbl_signal_moderate">معمولی</string>
+    <string name="lbl_signal_poor">ضعیف</string>
+
+    <string name="lbl_battery_percent">درصد باتری</string>
+
+    <string name="lbl_battery">باتری</string>
+    <string name="lbl_battery_status">وضعیت باتری</string>
+    <string name="lbl_battery_status_charging">در حال شارژ</string>
+    <string name="lbl_battery_status_discharging">در حال تخلیه</string>
+    <string name="lbl_battery_status_full">پر</string>
+    <string name="lbl_battery_status_not_charging">شارژ نمی شود</string>
+
+    <string name="lbl_status_unknown">نامشخص</string>
+
+    <string name="lbl_battery_health">سلامت باتری</string>
+    <string name="lbl_battery_health_dead">مرده</string>
+    <string name="lbl_battery_health_good">خوب</string>
+    <string name="lbl_battery_health_over_voltage">اضافه ولتاژ</string>
+    <string name="lbl_battery_health_over_heat">داغ شده</string>
+    <string name="lbl_battery_health_unspecific_failure">مشکل نامشخص</string>
+
+    <string name="lbl_battery_plugged">نوع اتصال</string>
+    <string name="lbl_battery_plugged_ac">برق مستقیم</string>
+    <string name="lbl_battery_plugged_usb">یو اس بی</string>
+    <string name="lbl_battery_not_plugged_in">متصل نیست</string>
+    <string name="lbl_battery_plugged_wireless">وایرلس</string>
+
+
+    <string name="lbl_status_ready">آماده</string>
+    <string name="lbl_status_failed">ناموفق</string>
+    <string name="lbl_status_completed">موفق</string>
+    <string name="lbl_status_processing">لطفا صبر کنید...</string>
+
+</resources>

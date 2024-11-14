@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_CheckIn"
+            android:title="@string/btn_CheckIn"
+            android:icon="@drawable/ic_menu_checkin" />
+        <item
+            android:id="@+id/nav_LocationCheckIn"
+            android:title="@string/btn_LocationCheckIn"
+            android:icon="@drawable/ic_menu_locationcheckin" />
+        <item
+            android:id="@+id/nav_Profile"
+            android:title="@string/btn_Profile"
+            android:icon="@drawable/ic_menu_profile" />
+        <item
+            android:id="@+id/nav_GPSTrackingStart"
+            android:title="@string/btn_GPSTrackingStart"
+            android:icon="@drawable/ic_menu_tracking" />
+
+        <item
+            android:id="@+id/nav_AttendanceList"
+            android:title="@string/btn_AttendanceList"
+            android:icon="@drawable/ic_menu_attendance_list" />
+
+        <item
+            android:id="@+id/nav_Company"
+            android:icon="@drawable/ic_menu_company"
+            android:title="@string/btn_Companies" />
+        <item
+            android:id="@+id/nav_Modules"
+            android:icon="@drawable/ic_menu_modules"
+            android:title="@string/btn_Modules" />
+        <item
+            android:id="@+id/nav_Payments"
+            android:icon="@drawable/ic_menu_payments"
+            android:title="@string/btn_Payments" />
+        <item
+            android:id="@+id/nav_Reports"
+            android:icon="@drawable/ic_report"
+            android:title="@string/btn_Reports" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/btn_Settings" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/btn_LogOut" />
+    </group>
+
+    <item android:title="@string/Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_tutorial"
+                android:icon="@drawable/ic_menu_tutorial"
+                android:title="@string/btn_Tutorial" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_menu_about_us"
+                android:title="@string/btn_AboutUs" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/btn_Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_rate"
+                android:title="@string/btn_Rate" />
+            <item
+                android:id="@+id/nav_other_products"
+                android:icon="@drawable/ic_menu_other_products"
+                android:title="@string/btn_OtherProducts" />
+        </menu>
+    </item>
+
+</menu>

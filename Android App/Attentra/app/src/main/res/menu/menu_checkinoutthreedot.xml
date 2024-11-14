@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/btn_Minimize"
+       android:id="@+id/menu_Minimize">
+
+    </item>
+    <item android:id="@+id/menu_CheckInOutMerge"
+        android:titleCondensed="Persist"
+        android:title="@string/chk_checkInOutMerge"
+        android:checkable="false" />
+</menu>

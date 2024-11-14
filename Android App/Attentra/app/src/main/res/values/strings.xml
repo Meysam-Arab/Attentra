@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">Attentra</string>
+
+    <string name="title_activity_company_index">Institutes</string>
+    <string name="title_activity_track_store">Send Signal</string>
+    <string name="title_activity_user_home">Main Page</string>
+    <string name="title_activity_user_register">UserRegister</string>
+    <string name="title_activity_aboutus">AboutUS</string>
+    <string name="title_activity_track_list">Tracking</string>
+    <string name="title_activity_user_login">Sign in</string>
+    <string name="title_activity_home">Attentra</string>
+    <string name="title_activity_checkin">Check In / Out</string>
+    <string name="title_activity_company_add_member">Add New Member</string>
+    <string name="title_activity_company_user_list">List Of Users</string>
+    <string name="title_activity_company_edit">Edit Institute</string>
+    <string name="title_activity_mission_index">Missions List</string>
+    <string name="title_activity_mission_add">Add New Mission</string>
+    <string name="title_activity_mission_edit">Edit Mission</string>
+    <string name="title_activity_track_index">Track List</string>
+    <string name="title_activity_company_add">Add New Institute</string>
+    <string name="title_activity_mission_users">List of Users in Missions</string>
+    <string name="title_activity_attendance">Attendances</string>
+    <string name="title_activity_attendance_store">Store New Attendance Manually</string>
+    <string name="title_activity_attendance_edit">Edit Manually</string>
+    <string name="title_activity_Modules">Modules</string>
+    <string name="title_activity_user_change_password">Change Password</string>
+    <string name="title_activity_payments">List of Your Payments</string>
+    <string name="title_activity_payment_add">Increase Balance</string>
+    <string name="title_activity_Module_purch">Purchase New Module</string>
+    <string name="title_activity_attendance_store_self_location">Location Based Roll Call</string>
+
+
+    <string name="btn_LogIn">Log In</string>
+    <string name="btn_LogOut">Log Out</string>
+    <string name="btn_Register">Register</string>
+    <string name="btn_Exit">Exit</string>
+    <string name="btn_AboutUs">About Us</string>
+    <string name="btn_Profile">Profile</string>
+    <string name="btn_CheckIn">Check In / Out</string>
+    <string name="btn_GPSTrackingStart">Start GPS Tracker</string>
+    <string name="btn_Companies">Institutes</string>
+    <string name="btn_Settings">Settings</string>
+    <string name="btn_Payments">Payments</string>
+    <string name="btn_Purchase">Purchase</string>
+    <string name="btn_AttendanceList">Attendance List</string>
+    <string name="btn_Share">Share</string>
+    <string name="btn_Rate">Rate us</string>
+    <string name="btn_OtherProducts">Other Programs</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_Stop">Stop</string>
+    <string name="btn_Start">Start</string>
+    <string name="btn_Minimize">Minimize</string>
+    <string name="btn_Download">Download</string>
+    <string name="btn_Tutorial">Tutorial</string>
+    <string name="btn_LocationCheckIn">Location Based Check In / Out</string>
+    <string name="btn_Reports">Reports</string>
+    <string name="btn_Attendance_Store_Self_Location">Roll Call in/out</string>
+    <string name="btn_AllowSelfRoll">Allow Self Roll-Call</string>
+    <string name="btn_DisallowSelfRoll">Disallow Self Roll-Call</string>
+
+    <string name="chk_trackingNotificationSound">Tracking Notification Sound</string>
+    <string name="chk_checkInOutMerge">Check In/Out simultaneously</string>
+
+
+
+
+    <string name="et_Email">Email</string>
+    <string name="et_UserName">UserName</string>
+    <string name="et_Password">Password</string>
+    <string name="et_RepPassword">Repeat Pass.</string>
+
+
+    <string name="dlg_Yes">Yes</string>
+    <string name="dlg_No">No</string>
+    <string name="dlg_msg_Exit">Are You Sure?</string>
+    <string name="dlg_Wait">Please Wait...</string>
+    <string name="dlg_OperationSuccess">Operation Successful</string>
+    <string name="dlg_OperationFail">Operation Failed</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_user_name">UserName</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_undefined">Undefined</string>
+    <string name="error_user_exist">User already exist</string>
+    <string name="error_item_exist">Item already exist</string>
+    <string name="error_register_fail">Register failed</string>
+    <string name="error_insert_fail">Insert failed</string>
+    <string name="error_login_fail">Wrong username or password</string>
+    <string name="error_token_mismach">Token mismach</string>
+    <string name="error_defective_information">Defective information</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_token_blacklisted">Token is blacklisted</string>
+    <string name="error_company_exist">Institute already exist</string>
+    <string name="error_company_store">Institute store fail</string>
+    <string name="error_module_expire">Module has been expired</string>
+    <string name="error_invalid_file_size">Invalid file size</string>
+    <string name="error_track_store">Error in storing coordinates</string>
+    <string name="error_update_fail">Update failed</string>
+    <string name="error_unauthorized_user">Unauthorized user</string>
+    <string name="error_delete_fail">Delete failed</string>
+    <string name="error_operation_fail">Operation failed</string>
+    <string name="error_no_change_found">Nothing has been changed</string>
+    <string name="error_track_index">Error in getting list of coordinates</string>
+    <string name="error_track_list">Error in getting user tracking info</string>
+    <string name="error_mismatch_password">Passwords does not match</string>
+    <string name="error_item_not_exist">Item does not exist</string>
+    <string name="error_not_enough_charge">Not enough charge</string>
+    <string name="error_auth_fail">Authentication failed, please login again</string>
+    <string name="error_wrong_phone_code">Unregistered phone</string>
+    <string name="error_invalid_piblic_key">Invalid key</string>
+    <string name="error_term_of_use">Please agree with the terms of use</string>
+    <string name="error_user_name_short">User name is too short</string>
+    <string name="error_user_canceled">User Canceled the Operation</string>
+
+
+    <string name="msg_OperationSuccess">Operation Successful</string>
+    <string name="msg_OperationFail">Operation Failed</string>
+    <string name="msg_OperationError">Operation Error</string>
+    <string name="msg_MessageNotSpecified">Undefined</string>
+    <string name="msg_MessageHeadToWebSite">Currently, This feature is only accessible in website.</string>
+    <string name="msg_ConnectionError">Error in connecting to server</string>
+    <string name="msg_GoogleServicesError">Please install google services</string>
+    <string name="msg_CheckInOperationSuccess">User Checked In Successfully</string>
+    <string name="msg_CheckOutOperationSuccess">User Checked Out Successfully</string>
+    <string name="msg_CheckInOutOperationSuccess">User Checked In And Out Successfully</string>
+    <string name="msg_ImportantNotice">Important Notice</string>
+
+
+    <string name="msg_OldVersion">There a new version of this app available - for download visit www.attentra.ir</string>
+    <string name="msg_VersionExpired">There a new version of this app available</string>
+    <string name="msg_InProgress">In Progress...</string>
+    <string name="msg_EyeClick">Click on eye above for start tracking</string>
+    <string name="msg_AppExited">You Exited from Program!!</string>
+    <string name="msg_PhoneCodeRegisterOk">You registered Your phone  successfully</string>
+    <string name="msg_TrackNotification">Touch here to enter the app</string>
+    <string name="msg_PressBackAgain">Please click BACK again to exit</string>
+    <string name="msg_InternetNotAvailable">Internet connection is not available</string>
+    <string name="msg_TermsOfService">I agree with the terms of service</string>
+    <!--////payment related////-->
+    <string name="msg_PaymentBazarOperationSuccessful">Operation Successful</string>
+    <string name="msg_PaymentZarinPalBelowSilverLevel">User level is below silver level</string>
+    <string name="msg_PaymentZarinPalDefectiveInformation">Defective information</string>
+    <string name="msg_PaymentZarinPalCanNotEditRequest">Can not edit request</string>
+    <string name="msg_PaymentZarinPalFinancialOperationNotFind">Financial operation not find</string>
+    <string name="msg_PaymentZarinPalIdValidationTime">Id validation time error</string>
+    <string name="msg_PaymentZarinPalIncorrectAdditionalData">Incorrect Additional Data</string>
+    <string name="msg_PaymentZarinPalIncorrectIpOrMerchantCode">Incorrect Authorization information</string>
+    <string name="msg_PaymentZarinPalMethodAccessNotAllowed">Access method error</string>
+    <string name="msg_PaymentZarinPalOperationSuccessful">Operation successful</string>
+    <string name="msg_PaymentZarinPalOperationSuccessfulPaymentVerificationAlredyDone">Operation successful and payment verification alredy done</string>
+    <string name="msg_PaymentZarinPalRequestArchived">Request is archived</string>
+    <string name="msg_PaymentZarinPalRequestNotFind">Request is not find</string>
+    <string name="msg_PaymentZarinPalShaparakRestrictionPayment">Shaparak restriction in payment value</string>
+    <string name="msg_PaymentZarinPalTransactionCountExceeded">Transaction time is exceeded</string>
+    <string name="msg_PaymentZarinPalTransactionFailed">Transaction failed</string>
+    <string name="msg_PaymentZarinPalTransactionPaymentMismatch">Transaction and payment mismatch</string>
+    <string name="msg_term_of_use">read</string>
+    <string name="msg_compelete_information">please complete your personal information via settings section</string>
+    <string name="msg_company_not_exist">No registered institute</string>
+    <string name="msg_PaymentUndefinedError">Undefined error</string>
+    <string name="msg_InNextVersions">available in future versions</string>
+    <string name="msg_InWebSystem">available in web based system</string>
+    <string name="msg_location_not_in_zone">Your current location is not in determined zone</string>
+    <string name="msg_InWebSystemForNow">available in web based system for now</string>
+    <string name="msg_ErrorUserNotAllowedToSelfRoll">User is not allowed to self roll</string>
+    <string name="msg_ErrorCompanyZoneIsNotSet">Company zone is not defined</string>
+    <string name="msg_Experimental">Experimental...</string>
+    <string name="msg_LocationAccessDenied">Location access denied!!</string>
+    <string name="msg_CameraAccessDenied">Camera access denied!!</string>
+
+    <!--/////////////////////////////////////-->
+
+
+    <string name="enter_company_name_here">Institute Name:</string>
+    <string name="register_company">Register Institute</string>
+    <string name="select_time_zone">Select Time Zone:</string>
+    <string name="btn_Modules">Modules</string>
+    <string name="et_Country">Country</string>
+    <string name="et_language">Language</string>
+
+    <string name="lbl_followeup">FollowUp Code:</string>
+    <string name="lbl_main_site"> website </string>
+    <string name="lbl_support"> support </string>
+    <string name="lbl_all_right_reserved"> All rights reserved for fardan7eghlim co. @1396 </string>
+    <string name="lbl_version"> version </string>
+    <string name="lbl_more_help"> For help and more tutorials visit the app main site </string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="mdl_month">Month</string>
+    <string name="mdl_company">Institute</string>
+    <string name="mdl_point">Point</string>
+    <string name="mdl_employee">Employee</string>
+    <string name="mdl_one">One</string>
+    <string name="mdl_two">Two</string>
+    <string name="mdl_three">Three</string>
+    <string name="mdl_four">Four</string>
+    <string name="mdl_five">Five</string>
+    <string name="mdl_six">Six</string>
+    <string name="mdl_ten">Ten</string>
+    <string name="mdl_thirty">Thirty</string>
+    <string name="mdl_5hundred">Five hundred</string>
+    <string name="mdl_thousant">Thousant</string>
+    <string name="mdl_year">Year</string>
+
+    <string name="tlt_Last_Operation_of_your_Employees">Last status of your employees:</string>
+    <string name="tlt_you_are_not_in_company">Currently, you are not at work</string>
+    <string name="tlt_you_are_at_work_since">You are at work since:</string>
+    <string name="Start">Start</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="End">End</string>
+    <string name="btn_Update">Update</string>
+    <string name="btn_Zone">Set Zone</string>
+
+    <string name="btn_Add">Add</string>
+    <string name="msg_write_something">Write Something...</string>
+    <string name="Type">Type:</string>
+    <string name="Name">Name:</string>
+    <string name="Family">Family:</string>
+    <string name="Gender">Gender:</string>
+    <string name="userName">User Name</string>
+    <string name="Email">Email:</string>
+    <string name="Password">Password:</string>
+    <string name="Code">Code:</string>
+    <string name="Title">Title:</string>
+    <string name="Description">Description</string>
+    <string name="Who_should_be_in_mission">Select employees who should be in this mission:</string>
+    <string name="Typical_Modules">Public Modules</string>
+    <string name="Modules_for_Special_Company">Modules for Institute:</string>
+    <string name="Modules_for_All_Companies">Public Modules for all of your Institutes:</string>
+    <string name="Amount">Amount:</string>
+    <string name="Duration">Duration:</string>
+    <string name="Price">Price(Toman):</string>
+    <string name="Purch">Purchase</string>
+    <string name="pay_new">Increase Balance</string>
+    <string name="Preveu_Pass">Preveu Pass:</string>
+    <string name="btn_Change_Password">Change Password</string>
+    <string name="btn_Email_me_new_Password">Send me new Password</string>
+    <string name="Select_Picture">Select Picture</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="CEO">CEO</string>
+    <string name="MiddleCEO">MiddleEO</string>
+    <string name="Employee">Employee</string>
+    <string name="Device">Device</string>
+    <string name="dlg_DoYouReallyWantToDelete">Do you really want to delete?</string>
+    <string name="Details">Details</string>
+    <string name="Attendance">Attendance</string>
+    <string name="Tracking">Tracking</string>
+    <string name="List_Of_Users">List Of Users</string>
+    <string name="Missions">Missions</string>
+    <string name="Employees_in_Mission">Employees in Mission</string>
+    <string name="msg_present">Present</string>
+    <string name="used">Used:</string>
+    <string name="from">From</string>
+    <string name="Communicate">Communicate</string>
+    <string name="msg_no">No</string>
+    <string name="msg_yes">Yes</string>
+    <string name="GPSseemsEnable">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="Delete">Delete</string>
+    <string name="Edit">Edit</string>
+    <string name="msg_qr_code_get">Please, Bring intended person\'s QR code in front of the camera</string>
+    <string name="status">Status</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="error_no_connection">No Internet!</string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="btn_CheckYourselfIn">Check Yourself In/Out</string>
+    <string name="msg_more">More</string>
+    <string name="Delete_phoneCode">Remove Registered Phone</string>
+    <string name="Tooman">Toman</string>
+    <string name="chargRemidTitle">Your Balance:</string>
+    <string name="Admin">Admin</string>
+    <string name="None">None</string>
+    <string name="notHere">Absent</string>
+    <string name="isHere">Present</string>
+    <string name="StartDate">Start Date</string>
+    <string name="abt_website">Website:</string>
+    <string name="abt_email">Email:</string>
+    <string name="abt_tellphone">Telephone:</string>
+    <string name="DeadLine">DeadLine:</string>
+    <string name="ShareSubject">Attentra</string>
+    <string name="ShareBody">Attentra - Tracking and Attendance app just with your smart phone - https://cafebazaar.ir/app/ir.fardan7eghlim.attentra/?l=fa</string>
+    <string name="ShareVia">Share via</string>
+
+
+
+    <string name="ttrl_ceo_01_h">منوی اصلی</string>
+    <string name="ttrl_ceo_01">برای دسترسی به قسمت های مختلف برنامه بایستی به این منو مراجعه کنید</string>
+    <string name="ttrl_ceo_02_h">ثبت ورود و خروج</string>
+    <string name="ttrl_ceo_02">در این قسمت شما میتوانید،با اسکن کارت های کارمندان خود زمان ورود و خروج ایشان را ثبت کنید</string>
+    <string name="ttrl_ceo_03_h">صفحه ی اصلی</string>
+    <string name="ttrl_ceo_03">دسترسی به صفحه ی ابتدایی برنامه.شما مدیر محترم در این صفحه می توانید آخرین وضعیت کارمندان خود را نیز مشاهده کنید.</string>
+    <string name="ttrl_ceo_04_h">لیست حضور غیاب شما</string>
+    <string name="ttrl_ceo_04">در این قسمت لیست ساعات حضور ثبت شده ی مربوط به خودتان را می توانید مشاهده کنید</string>
+    <string name="ttrl_ceo_05_h">نهادهای مربوط به شما</string>
+    <string name="ttrl_ceo_05">در این قسمت،لیستی از شرکت ها یا بخش هایی از شرکت های خود را ثبت کرده اید را می توانید مشاهده کنید.</string>
+    <string name="ttrl_ceo_06_h">ماژول های کمکی</string>
+    <string name="ttrl_ceo_06">در این قسمت لیستی از ماژول های کمکی برنامه وجود دارند که شما می توانید آن ها را خریداری کنید</string>
+    <string name="ttrl_ceo_07_h">لیست پرداخت ها</string>
+    <string name="ttrl_ceo_07">سیستم پرداخت ما به صورت شارژدهی است.شما در این قسمت لیست پرداخت های که انجام داده اید را مشاهده خواهید کرد.</string>
+
+    <string name="ttrl_emp_01_h">صفحه ی اصلی</string>
+    <string name="ttrl_emp_01">دسترسی به صفحه ی ابتدایی برنامه.شما کارمند گرامی،در این صفحه وضعیت خود در سیستم و بارکد خود را مشاهده می کنید.</string>
+    <string name="ttrl_emp_02_h">ارسال داده های مکانی</string>
+    <string name="ttrl_emp_02">در این قسمت،شما توانایی ارسال موقعیت های جغرافی خود به سرور هستید.</string>
+    <string name="ttrl_emp_03_h">لیست حضور غیاب شما</string>
+    <string name="ttrl_emp_03">در این قسمت لیست ساعات حضور ثبت شده ی مربوط به خودتان را می توانید مشاهده کنید</string>
+    <string name="ttrl_emp_04_h">تنظیمات</string>
+    <string name="ttrl_emp_04">برای ویرایش اطلاعات خود از این قسمت استفاده کنید</string>
+    <string name="close_tutorial">Close tutorial</string>
+
+    <string name="lbl_signal">Signal</string>
+    <string name="lbl_signal_none_or_unknown">Unknown</string>
+    <string name="lbl_signal_great">Great</string>
+    <string name="lbl_signal_good">Good</string>
+    <string name="lbl_signal_moderate">Moderate</string>
+    <string name="lbl_signal_poor">Poor</string>
+
+    <string name="lbl_battery">Battery</string>
+    <string name="lbl_battery_status">Battery Status</string>
+    <string name="lbl_battery_status_charging">Charging</string>
+    <string name="lbl_battery_status_discharging">Discharging</string>
+    <string name="lbl_battery_status_full">Full</string>
+    <string name="lbl_battery_status_not_charging">Not Charging</string>
+
+    <string name="lbl_status_unknown">Unknown</string>
+    <string name="lbl_battery_percent">Battery Percent</string>
+
+
+    <string name="lbl_battery_health">Battery Health</string>
+    <string name="lbl_battery_health_dead">Dead</string>
+    <string name="lbl_battery_health_good">Good</string>
+    <string name="lbl_battery_health_over_voltage">Over Voltage</string>
+    <string name="lbl_battery_health_over_heat">Over Heat</string>
+    <string name="lbl_battery_health_unspecific_failure">Unspecific Failure</string>
+
+    <string name="lbl_battery_plugged">Plugged</string>
+    <string name="lbl_battery_plugged_ac">AC</string>
+    <string name="lbl_battery_plugged_usb">USB</string>
+    <string name="lbl_battery_not_plugged_in">Not Plugged In</string>
+    <string name="lbl_battery_plugged_wireless">Wireless</string>
+
+
+    <string name="lbl_status_ready">Ready</string>
+    <string name="lbl_status_failed">Failed</string>
+    <string name="lbl_status_completed">Completed</string>
+    <string name="lbl_status_processing">Please Wait...</string>
+
+
+</resources>
