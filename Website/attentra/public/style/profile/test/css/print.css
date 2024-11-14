@@ -1,0 +1,6 @@
+.someClass {font-family:arial;}
+@media print {
+    .noPrint { display: none; }
+    .Print { margin: 0 auto;width: 350px;margin: 10px auto;background-color: #fff;border: 2px solid black;overflow: hidden; }
+    .setPrint{display: none}
+}
