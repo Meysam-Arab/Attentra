@@ -1,0 +1,23 @@
+
+@font-face
+{
+    font-family:'Yekan';
+    src: url('../fonts/Yekan.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/Yekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/Yekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/*WebYekanNumberFont*/
+@font-face
+{
+    font-family:'NumberYekan';
+    src: url('../fonts/yekannumbers-regular.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/yekannumbers-regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/yekannumbers-regular.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+
+}
+body{
+    font-family: "Yekan","NumberYekan" !important;
+    font-size: 14px !important;
+}
+
