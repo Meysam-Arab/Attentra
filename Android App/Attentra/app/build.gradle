@@ -1,0 +1,49 @@
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "ir.fardan7eghlim.attentra"
+        manifestPlaceholders = [onesignal_app_id               : "43064c43-c7ef-47fe-8061-9c891e9d3b72",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "17474709451"]
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 13
+        versionName "2.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            debuggable true
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.onesignal:OneSignal:3.+@aar'
+
+    compile files('libs/core-3.2.1.jar')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.github.hamsaadev:Persian-Date-Picker-Dialog:V1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.amlcurran.showcaseview:library:5.4.3'
+    testCompile 'junit:junit:4.12'
+}
+//compile 'com.android.support:multidex:1.0.1'
