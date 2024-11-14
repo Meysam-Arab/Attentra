@@ -141,7 +141,7 @@
 @endsection
 @section('script')
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMBCC_pf0JtSxH0gvs4_84PXVCL7ufOfE&signed_in=true&libraries=drawing&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key={{APIKEY}}&signed_in=true&libraries=drawing&callback=initMap">
 
     </script>
 
