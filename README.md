@@ -1,6 +1,6 @@
 # Attentra
 
-![Attentra Image]([https://raw.githubusercontent.com/username/repository/main/images/my-image.png](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/main/img/book1.png))
+![Attentra Image](https://github.com/Meysam-Arab/Attentra/blob/main/Website/attentra/public/style/main/img/book1.png)
 
 Attentra is a comprehensive program designed to track and manage the presence and absence of individuals. Users can register different people at various locations by defining each place within the app. These locations can include a company, factory, school, home, or any other specific area.
 
